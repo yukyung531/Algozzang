@@ -3059,3 +3059,18 @@ java.lang.NoClassDefFoundError: javax/xml/bind/JAXBContext
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext cannot be found by org.eclipse.mylyn.commons.notifications.feed_1.16.0.v20180904-2231
 	... 8 more
+
+!ENTRY org.eclipse.core.jobs 4 2 2024-01-14 01:56:46.267
+!MESSAGE An internal error occurred during: "Polling news feeds".
+!STACK 0
+java.lang.NoClassDefFoundError: javax/xml/bind/JAXBContext
+	at org.eclipse.mylyn.internal.commons.notifications.feed.FeedReader.parse(FeedReader.java:52)
+	at org.eclipse.recommenders.news.impl.poll.DefaultFeedItemStore.parseNewsItems(DefaultFeedItemStore.java:135)
+	at org.eclipse.recommenders.news.impl.poll.DefaultFeedItemStore.udpate(DefaultFeedItemStore.java:53)
+	at org.eclipse.recommenders.news.impl.poll.DefaultNewsPollingService.fallbackToLocalStore(DefaultNewsPollingService.java:136)
+	at org.eclipse.recommenders.news.impl.poll.DefaultNewsPollingService.poll(DefaultNewsPollingService.java:104)
+	at org.eclipse.recommenders.news.impl.poll.DefaultNewsPollingService.poll(DefaultNewsPollingService.java:64)
+	at org.eclipse.recommenders.internal.news.rcp.poll.PollFeedsJob.run(PollFeedsJob.java:70)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Caused by: java.lang.ClassNotFoundException: javax.xml.bind.JAXBContext cannot be found by org.eclipse.mylyn.commons.notifications.feed_1.16.0.v20180904-2231
+	... 8 more
