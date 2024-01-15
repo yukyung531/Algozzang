@@ -1,6 +1,6 @@
 package BOJ_9935_문자열폭발;
 
-// 답을 봄............
+// 답을 봄...........
 
 import java.io.BufferedReader;
 import java.io.IOException;
