@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="572c00a6-1eef-4526-9b49-f435918b316c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/src/BOJ_1926_그림.java" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/src/BOJ_1926_그림.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/src/BOJ_2583_영역구하기.java" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/src/BOJ_2583_영역구하기.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
     "Application.BOJ_2578_빙고.executor": "Run",
     "Application.BOJ_2578_빙고2.executor": "Run",
     "Application.BOJ_2578_빙고3.executor": "Run",
+    "Application.BOJ_2583_영역구하기.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
@@ -66,7 +67,7 @@
       <workItem from="1705504908694" duration="4087000" />
       <workItem from="1705811175331" duration="1036000" />
       <workItem from="1705828898487" duration="1201000" />
-      <workItem from="1705926253380" duration="3633000" />
+      <workItem from="1705926253380" duration="7958000" />
     </task>
     <servers />
   </component>
