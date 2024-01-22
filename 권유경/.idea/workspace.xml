@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="572c00a6-1eef-4526-9b49-f435918b316c" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BOJ/src/BOJ_2578_빙고.java" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/src/BOJ_2578_빙고.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BOJ/src/BOJ_1926_그림.java" beforeDir="false" afterPath="$PROJECT_DIR$/BOJ/src/BOJ_1926_그림.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,24 +23,25 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.BOJ_2578_빙고.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BOJ_2578_빙고2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BOJ_2578_빙고3.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Desktop/싸피 2학기 프로젝트/S10P12A606&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.BOJ_1926_그림.executor": "Run",
+    "Application.BOJ_2578_빙고.executor": "Run",
+    "Application.BOJ_2578_빙고2.executor": "Run",
+    "Application.BOJ_2578_빙고3.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/user/Desktop/싸피 2학기 프로젝트/S10P12A606",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
@@ -65,7 +66,7 @@
       <workItem from="1705504908694" duration="4087000" />
       <workItem from="1705811175331" duration="1036000" />
       <workItem from="1705828898487" duration="1201000" />
-      <workItem from="1705926253380" duration="610000" />
+      <workItem from="1705926253380" duration="3633000" />
     </task>
     <servers />
   </component>
