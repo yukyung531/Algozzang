@@ -29,6 +29,12 @@
 - [백준-13335-트럭](https://www.acmicpc.net/problem/13335)
 - [백준-3190-뱀](https://www.acmicpc.net/problem/3190)
 
+### 3주차
+
+- [백준-1926-그림](https://www.acmicpc.net/problem/1926)
+- [백준-2583-영역 구하기](https://www.acmicpc.net/problem/2583)
+- [백준-2578-빙고](https://www.acmicpc.net/problem/2578)
+
 ## 🎤알고리즘 주제 발표
 
 ### 2주차
@@ -109,6 +115,7 @@
 
 ### 8주차
 
+ㄸ
 `프림 알고리즘` / `다익스트라 알고리즘`
 
 ### 9주차
