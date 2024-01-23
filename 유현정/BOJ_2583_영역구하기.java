@@ -1,6 +1,8 @@
 package BOJ_2583;
 
-import java.util.List;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
 import java.util.Scanner;
 
 public class Main {
@@ -10,13 +12,13 @@ public class Main {
 	static int[] movei = new int[] {0, 0, 1, -1};
 	static int[] movej = new int[] {1, -1, 0, 0};
 	static boolean[][] visited;
-	static ArrayList<Integer> al = new ArrayList<>;
+	static ArrayList<Integer> al = new ArrayList<>();
 	static int tmparea;
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		N = sc.nextInt();
 		M = sc.nextInt();
+		N = sc.nextInt();
 		int K = sc.nextInt();
 		
 		board = new int[N][M];
@@ -26,12 +28,14 @@ public class Main {
 			int fj = sc.nextInt();
 			int li = sc.nextInt()-1;
 			int lj = sc.nextInt() -1;
-			for(int j = fi; j<li; j++) {
-				for(int k = fj; k<lj; k++) {
+			for(int j = fi; j<=li; j++) {
+				for(int k = fj; k<=lj; k++) {
 					board[j][k]++;
 				}
 			}
+		
 		}
+		
 		
 		int time = 0;
 		for(int i = 0; i<N; i++) {
@@ -45,9 +49,11 @@ public class Main {
 				}
 			}
 		}
-		al.
+		Collections.sort(al);
 		System.out.println(time);
-		
+		for(int i = 0; i<al.size(); i++) {
+			System.out.print(al.get(i)+" ");
+		}
 		
 		
 	}
