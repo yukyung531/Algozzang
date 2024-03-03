@@ -1,4 +1,4 @@
-package src.algo_240307;
+package src.algo_240307.파도반_수열_9461;
 
 import java.io.BufferedReader;
 import java.io.IOException;
