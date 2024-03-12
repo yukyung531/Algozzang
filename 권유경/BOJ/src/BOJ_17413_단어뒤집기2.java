@@ -11,7 +11,6 @@ public class BOJ_17413_단어뒤집기2 {
 
         String S = br.readLine();
         // 입력 완료
-//        System.out.println(S);
 
         // 입력받은 문자열 S를 char 배열로 만들자
         char[] charArr = S.toCharArray();
@@ -34,16 +33,31 @@ public class BOJ_17413_단어뒤집기2 {
                 charList.get(charArr[i]);
                 continue;
             }
-            // tag = 1이고, charArr[i] != '>' 라면 charList에 추가
+            // tag == 1이고, charArr[i] != '>' 라면 charList에 추가
             if(tag == 1 && charArr[i] != '>'){
                charList.add(charArr[i]);
             }
-            // tag == 1이고, charArr[i] == '>' 라면 charList에 추가 후, charList 출력하여 tag = 0 으로 바꾸자
+            // tag == 1이고, charArr[i] == '>' 라면 charList에 추가 후, charList 출력하고, 초기화 후 tag = 0 으로 바꾸자
             else if(tag == 1 && charArr[i] == '>'){
                 charList.add(charArr[i]);
+                System.out.print(charList);
+                charList.clear();
                 tag = 0;
             }
+            // tag == 0 이라면
+            else if(tag == 0){
+                charList.add(charArr[i]);
+            }
+            // 만약 tag == 0 이고 공백이라면 charList에 추가 후, charList 거꾸로 출력 후, 초기화
+            else if(tag == 0 && charArr[i] == ' '){
+                charList.add(charArr[i]);
+                for(int j = charList.size()-1; i>=0; i--){
+                    System.out.print(charList.get(j));
+                    charList.clear();
+                }
+            }
         }
+
 
     }
     // main
