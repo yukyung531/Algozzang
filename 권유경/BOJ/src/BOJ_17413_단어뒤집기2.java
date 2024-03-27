@@ -74,8 +74,6 @@ public class BOJ_17413_단어뒤집기2 {
                 charList.clear();
             }
         }
-
-
     }
     // main
 }
